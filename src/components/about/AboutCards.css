@@ -1,0 +1,36 @@
+.aboutCardsContainer {
+  background-color: #1976d2;
+  padding: 40px 0;
+  /* margin: 0 0 60px 0; */
+}
+.aboutCardsContainer .header-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutCardsContainer .header-title {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.aboutCardsContainer .header-title .underline{
+  margin-top: 36px;
+}
+.aboutCardsContainer .main-title {
+  color: #fff;
+}
+.aboutCardsWrapper {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.aboutCardsWrapper .card-wrapper {
+  height: auto;
+}

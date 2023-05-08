@@ -1,0 +1,54 @@
+.teams .coverPage {
+
+margin: 40px 0 80px 0;}
+.teams .useCaseCardsWrapper{
+  justify-content: flex-start;
+}
+.teams .coverPage .coverPageContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.teams .coverPage .coverPageContent .title {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.teams .coverPage .coverPageContent .content {
+  font-size: 24px;
+  width: 100%;
+  line-height: 1.4;
+}
+.teams .contentPage {
+  margin: 10px 0;
+}
+.teams .contentPage .actualContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.teams .contentPage .actualContent .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teams .contentPage .actualContent .content .infoList {
+  list-style: none;
+}
+.teams .contentPage .actualContent .content .infoList li {
+  padding: 6px 0;
+  display: flex;
+}
+.teams .contentPage .actualContent .content .infoList li .icon {
+  color: #0068e5;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.teams .contentPage .actualContent .image {
+  flex: 1;
+  text-align: right;
+}

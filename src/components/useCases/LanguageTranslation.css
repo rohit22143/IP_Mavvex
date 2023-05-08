@@ -1,0 +1,57 @@
+.languageTranslation .coverPage {
+    height: 500px;
+    background-image: url("../img/useCase.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+  }
+  .languageTranslation .coverPage .coverPageContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  .languageTranslation .coverPage .coverPageContent .title {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+  .languageTranslation .coverPage .coverPageContent .content {
+    color: white;
+    font-size: 26px;
+  }
+  .languageTranslation .contentPage {
+    margin: 80px 0;
+  }
+  .languageTranslation .contentPage .actualContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+  .languageTranslation .contentPage .actualContent .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .languageTranslation .contentPage .actualContent .content .infoList {
+    list-style: none;
+  }
+  .languageTranslation .contentPage .actualContent .content .infoList li {
+    padding: 6px 0 ;
+    display: flex;
+  }
+  .languageTranslation .contentPage .actualContent .content .infoList li .icon {
+      color: #0068e5;
+      margin-top: 2px;
+      margin-right: 10px;
+    }
+  
+  
+  .languageTranslation .contentPage .actualContent .image {
+    flex: 1;
+    text-align: right;
+  }
+  

@@ -1,0 +1,224 @@
+/* 
+.bar {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.nav-list {
+  display: inline-block;
+}
+
+.nav-list {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+
+.bar ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+.nav-list:hover > ul {
+  display: inherit;
+  padding-inline-start: 14px;
+  left: 16px;
+  margin-left: 0;
+  background-color: #010606;
+}
+
+.bar ul li {
+  margin-left: 0;
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.nav-list:after {
+  content: " +";
+}
+.nav-list:only-child:after {
+  content: "";
+}
+
+.nav-list1 {
+  display: inline-block;
+}
+.nav-list1 {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+.nav-list1:hover > ul {
+  display: inherit;
+  padding-inline-start: 14px;
+  left: 16px;
+  margin-left: 0;
+  background-color: #010606;
+}
+.nav-list1:after {
+  content: " +";
+}
+.nav-list1:only-child:after {
+  content: "";
+} */
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+#logo {
+  float:left;
+  margin:0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: -1;
+  opacity: 0;
+  transition: 1s all;
+}
+
+.navbarWrapper{
+  background-color: #000000;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+ 
+}
+.logo {
+  color: #ff3f34;
+  text-decoration: none;
+  font-size: 30x;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  padding: 20px 10px;
+  font-weight: 700;
+  transition: 0.4s all;
+}
+
+.navbar-links li.navbar-dropdown {
+  position: relative;
+}
+
+.navbar-links li.navbar-dropdown:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.navbar-links li.navbar-dropdown .dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding: 20px 0;
+  top: 100%;
+  transform: translateY(50px);
+  left: 0;
+  width: 250px;
+  background-color: black;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  z-index: 111;
+  transition: 0.4s all;
+}
+.navbar-links li.navbar-dropdown .dropdown a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.navbar-dropdown .dropdown a:hover {
+  padding-left: 30px;
+}
+.navbar-links li a:hover {
+  color: #ff3f34;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  /* background-color: #f00; */
+  background-image: url("http://lorempixel.com/1366/698/food/");
+  background-size: cover;
+}
+
+.header-inner {
+  text-align: center;
+  color: #ff3f34;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, .8);
+}
+
+.header-inner h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 130px;
+}
+
+.header-inner form input[type="search"] {
+  position: relative;
+  width: 500px;
+  border: none;
+  padding: 15px;
+  border-radius: 27px;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+  z-index: 11;
+}
+.header-inner form input[type="search"]:focus {
+  outline: none;
+}
+
+.header-inner form input[type="search"]:focus + div {
+  z-index: 1;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #666;
+  font-weight: 400;
+}
+.navbar-dropdown:after {
+  content: " +";
+}

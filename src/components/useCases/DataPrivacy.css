@@ -1,0 +1,56 @@
+.dataPrivacy .coverPage {
+  height: 500px;
+  background: url('../img/DataPrivacy1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/DataPrivacy1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.dataPrivacy .coverPage .coverPageContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.dataPrivacy .coverPage .coverPageContent .title {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.dataPrivacy .coverPage .coverPageContent .content {
+  color: white;
+  font-size: 26px;
+}
+.dataPrivacy .contentPage {
+  margin: 80px 0;
+}
+.dataPrivacy .contentPage .actualContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.dataPrivacy .contentPage .actualContent .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dataPrivacy .contentPage .actualContent .content .infoList {
+  list-style: none;
+}
+.dataPrivacy .contentPage .actualContent .content .infoList li {
+  padding: 6px 0 ;
+  display: flex;
+}
+.dataPrivacy .contentPage .actualContent .content .infoList li .icon {
+    color: #0068e5;
+    margin-top: 2px;
+    margin-right: 10px;
+  }
+
+
+.dataPrivacy .contentPage .actualContent .image {
+  flex: 1;
+  text-align: right;
+}
